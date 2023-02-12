@@ -1,0 +1,44 @@
+.header {
+    background: url('./hero-image.webp');
+    background-position: center 90%;
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(81, 81, 116, 0.699);
+    padding-top: 8px;
+    color: rgb(46, 2, 59);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hero-text * {
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 700;
+    color: rgb(32, 41, 160);
+    background-color: goldenrod;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: rgb(94, 157, 216);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

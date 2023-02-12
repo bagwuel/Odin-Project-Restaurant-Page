@@ -1,0 +1,10 @@
+.nav-button {
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: gold;
+}

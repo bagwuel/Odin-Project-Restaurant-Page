@@ -1,0 +1,10 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.473);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
